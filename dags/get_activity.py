@@ -11,7 +11,7 @@ import pendulum
 
 @aql.dataframe(task_id="fetch_activity")
 def fetch_activity_func():
-    return
+    print("hello cristian")
 
 default_args={
     "owner": "Cristian Yeraldo Urcuqui Ortega,Open in Cloud IDE",
